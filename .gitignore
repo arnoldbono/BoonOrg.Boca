@@ -1,0 +1,8 @@
+msbuild.log
+Output/
+.DS_Store
+*.nupkg
+obj/
+bin/
+.vs/
+.vscode/

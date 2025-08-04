@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Autofac" />
+		<PackageReference Include="SixLabors.ImageSharp" />
+    <PackageReference Include="Newtonsoft.Json" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="BoonOrg.Core" />
+    <PackageReference Include="BoonOrg.Bfcs" />
+    <PackageReference Include="BoonOrg.glTF" />
+	</ItemGroup>
+</Project>
