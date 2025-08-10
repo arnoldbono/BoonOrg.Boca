@@ -16,5 +16,6 @@
     <PackageVersion Include="BoonOrg.Bfcs" Version="1.6.0" />
     <PackageVersion Include="BoonOrg.glTF" Version="1.1.0" />
     <PackageVersion Include="BoonOrg.USD" Version="1.1.0" />
+    <PackageVersion Include="BoonOrg.Horn" Version="1.1.0" />
   </ItemGroup>
 </Project>

@@ -7,8 +7,10 @@ class Program
     static void Main(string[] args)
     {
         var builder = Resolver.Builder();
-        builder.Build("BFCS", ["BoonOrg.glTF", "BoonOrg.USD"]);
-        Console.WriteLine("BFCS application loaded");
+
+        Console.WriteLine("Loading addins...");
+        builder.Build("BFCS", ["BoonOrg.glTF", "BoonOrg.USD", "BoonOrg.Horn"]);
+        Console.WriteLine("Addins loaded");
 
         var resolver = Resolver.Instance();
 
