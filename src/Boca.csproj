@@ -14,5 +14,6 @@
 		<PackageReference Include="BoonOrg.Core" />
     <PackageReference Include="BoonOrg.Bfcs" />
     <PackageReference Include="BoonOrg.glTF" />
+    <PackageReference Include="BoonOrg.USD" />
 	</ItemGroup>
 </Project>
