@@ -9,7 +9,6 @@ class PathFromArguments
     {
         if (args.Length == 0)
         {
-            Console.WriteLine("Missing option --file or -f.");
             return null;
         }
 
