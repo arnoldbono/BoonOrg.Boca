@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": ".NET Launch (console)",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/Output/Boca.dll",
+      "args": [
+        "--file", "~HeenEnWeer/Lorenz/Horn.i",
+        "--application", "BFCS",
+        "--module", "BoonOrg.USD",
+        "--module", "BoonOrg.Horn"
+      ],
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "stopAtEntry": false,
+      "requireExactSource": true
+    }
+  ]
+}
