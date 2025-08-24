@@ -17,5 +17,7 @@
     <PackageVersion Include="BoonOrg.glTF" Version="1.1.0" />
     <PackageVersion Include="BoonOrg.USD" Version="1.1.0" />
     <PackageVersion Include="BoonOrg.Horn" Version="1.1.0" />
+    <PackageVersion Include="BoonOrg.PAT" Version="1.0.0" />
+    <PackageVersion Include="BoonOrg.Mandelbrot3D" Version="1.0.0" />
   </ItemGroup>
 </Project>

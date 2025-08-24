@@ -16,5 +16,7 @@
     <PackageReference Include="BoonOrg.glTF" />
     <PackageReference Include="BoonOrg.USD" />
     <PackageReference Include="BoonOrg.Horn" />
+    <PackageReference Include="BoonOrg.PAT" />
+    <PackageReference Include="BoonOrg.Mandelbrot3D" />
 	</ItemGroup>
 </Project>

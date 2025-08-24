@@ -7,10 +7,12 @@
       "request": "launch",
       "program": "${workspaceFolder}/Output/Boca.dll",
       "args": [
-        "--file", "~HeenEnWeer/Lorenz/Horn.i",
-        "--application", "BFCS",
+        "--file", "~Development/BoonOrg/Examples/PAT.i",
+        "--application", "PAT",
         "--module", "BoonOrg.USD",
-        "--module", "BoonOrg.Horn"
+        "--module", "BoonOrg.Horn",
+        "--module", "BoonOrg.Mandelbrot3D",
+        "--module", "BoonOrg.PAT"
       ],
       "cwd": "${workspaceFolder}",
       "console": "internalConsole",

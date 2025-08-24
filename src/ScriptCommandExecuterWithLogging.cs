@@ -19,12 +19,11 @@ class ScriptCommandExecuterWithLogging
         Console.WriteLine($"Processing file: {filePath}");
         var documentServer = m_resolver.Resolve<IDocumentServer>();
         var document = documentServer.Prepare(filePath);
-        Console.WriteLine($"Prepared: {filePath}");
-
         document.Initialize(filePath);
 
         var scriptCommandFileReader = m_resolver.Resolve<IScriptCommandFileReader>();
         scriptCommandFileReader.Read(document, filePath);
+        Console.WriteLine($"Script read: {filePath}");
 
         var scriptCommandFile = scriptCommandFileReader.ScriptCommandFile;
         Console.WriteLine($"Read {scriptCommandFile.Lines.Count()} lines");
