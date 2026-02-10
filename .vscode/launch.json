@@ -7,12 +7,13 @@
       "request": "launch",
       "program": "${workspaceFolder}/Output/Boca.dll",
       "args": [
-        "--file", "~Development/BoonOrg/Examples/PAT.i",
-        "--application", "PAT",
+        "--file", "~Development/BoonOrg.DEMO/Examples/glXML-Import.i",
+        "--application", "BoonOrg.DEMO",
         "--module", "BoonOrg.USD",
         "--module", "BoonOrg.Horn",
         "--module", "BoonOrg.Mandelbrot3D",
-        "--module", "BoonOrg.PAT"
+        "--module", "BoonOrg.PAT",
+        "--module", "BoonOrg.DEMO"
       ],
       "cwd": "${workspaceFolder}",
       "console": "internalConsole",
